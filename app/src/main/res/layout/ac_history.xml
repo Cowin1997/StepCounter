@@ -18,10 +18,10 @@
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:gravity="center"
-            android:onClick="onBackward"
+            android:onClick="OnBack"
             android:paddingLeft="18dp"
             android:paddingRight="18dp"
-            android:src="@mipmap/arrow_back_white"
+            android:src="@drawable/arrow_back_white"
             android:visibility="visible" />
 
         <TextView
@@ -57,7 +57,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/lv"
+        android:id="@+id/ls"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
 
